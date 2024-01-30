@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+}
+
+body .slot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100%;
+}
+
+.slot .frame{
+    width: 500px;
+    height: 680px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  12px 10px 0px #000000;
+    border: 3px solid black;
+}
+
+.img img{
+    margin: 22px 37px 20px 37px;
+    border-radius: 20px;
+    object-fit: fill;
+    width: 426px;
+}
+
+.frame .learn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 37px;
+    width: 150px;
+    height: 45px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 0.03rem;
+}
+
+.learn p{
+    font-weight: bolder;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-size: 20px;
+}
+
+.frame .date{
+    margin: 15px 0 16px 39px;
+    font-size: 25px;
+}
+
+.frame .head{
+    margin-left: 37px;
+    display: flex;
+    align-items: center;
+    height: 58px;
+}
+
+.head a{
+    font-weight: bolder;
+    font-size: 32px;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.head a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.frame .text{
+    margin: 16px 40px 22px 38px;
+    font-size: 22px;
+    font-family:'Arial Narrow', Arial, sans-serif ;
+    letter-spacing: 0.8px;
+    color: hsl(0, 0%, 50%);
+}
+
+.frame .intro{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 37px;
+}
+
+.frame .intro .id{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width:547px) {
+    .slot .frame{
+        width: 320px;
+        height: 550px;
+    }
+
+    .img img{
+        width: 245px;
+    }
+
+    .frame .date{
+        margin: 20px 0 18px 38px;
+        font-size: larger;
+        font-weight: 500;
+    }
+
+    .learn p{
+        font-size: 16px;
+    }
+
+    .frame .learn{
+        width: 100px;
+    }
+
+    .head a{
+        font-size: 22px;
+    }
+
+    .frame .text{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .frame .intro{
+        gap: 1rem;
+        margin-left: 38px;
+    }
+
+    .frame .intro .id{
+        font-size: 16px;
+    }
+
+}
